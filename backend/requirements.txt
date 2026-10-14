@@ -1,0 +1,12 @@
+fastapi==0.115.12
+uvicorn==0.34.2
+SQLAlchemy==2.0.40
+psycopg[binary]==3.2.6
+PyJWT==2.10.1
+pwdlib[argon2]==0.2.1
+ortools==9.12.4544
+python-dotenv==1.1.0
+pytest==8.3.5
+httpx==0.28.1
+reportlab==4.4.0
+openpyxl==3.1.5

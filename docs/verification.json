@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "backend_tests": {
+    "passed": 30,
+    "failed": 0,
+    "database": "SQLite",
+    "command": "python -m pytest -q"
+  },
+  "frontend_build": "passed",
+  "live_api": {
+    "version": "0.2.0",
+    "paths": 65
+  },
+  "browser_verification": {
+    "base_mvp": "Previously verified login, imports, common-free results, generation and publication",
+    "v2": "Not performed: browser access was declined"
+  },
+  "preserved_rows": {
+    "users": 5,
+    "registrations": 22,
+    "friendships": 2,
+    "events": 1,
+    "meetups": 0,
+    "timetables": 1,
+    "entries": 14
+  },
+  "template": {
+    "theory_occurrences": 55,
+    "lab_occurrences": 60,
+    "unchanged": true,
+    "source": "slot-template.png"
+  },
+  "postgresql": "Configuration and additive migration included; tests ran against SQLite",
+  "plain_language": "Offline supported-pattern parser; no external LLM",
+  "product_priority": {
+    "main": "Admin AI Timetable Generator",
+    "addition": "Friends and common free time"
+  }
+}
